@@ -1,0 +1,30 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	background-image: url(assets/images/ep_naturalwhite.png) lightgray;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a {
+	color: darkgray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#tealh1 {
+	color: #4aaaa5;
+}
+
+.contentBox {
+	width: 650px;
+}
