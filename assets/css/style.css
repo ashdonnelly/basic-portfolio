@@ -1,7 +1,7 @@
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 960px;
-	background-image: url(assets/images/ep_naturalwhite.png) lightgray;
+	color: #777777;
 }
 
 h1 {
@@ -12,8 +12,12 @@ h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+hr {
+	color: #777777;
+}
+
 a {
-	color: darkgray;
+	color: #777777;
 	text-decoration: none;
 }
 
@@ -21,10 +25,33 @@ a:hover {
 	text-decoration: underline;
 }
 
-#tealh1 {
+.headerContainer {
+	background-color: white;
+}
+
+#headerName {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 15px;
+	width: 23%;
+	text-align: center;
+
+}
+
+.headerLinks {
+	float: right;
+}
+
+#contenth1 {
 	color: #4aaaa5;
 }
 
-.contentBox {
+.contentContainer {
 	width: 650px;
+	clear: both;
+}
+
+#sidebar {
+	width: 270px;
+	float: left;
 }
